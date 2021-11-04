@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/navigation_menu1"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/navigation_menu2"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="MENU2"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/navigation_menu3"
+            android:title="Wallet"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/navigation_menu4"
+            android:title="Setting"
+            android:visible="true" />
+
+</menu>
